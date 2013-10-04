@@ -1,0 +1,15 @@
+name: errbit-notify
+version: 0.0.1
+description: Send deploy notification to errbit
+keywords:
+  - notification
+properties:
+  host:
+    type: string
+    required: true
+  api-key:
+    type: string
+    required: true
+  ssl:
+    type: boolean
+    required: false
