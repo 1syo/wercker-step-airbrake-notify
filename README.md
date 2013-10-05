@@ -10,9 +10,11 @@
 ## Example
 
 ```
-- 1syo/errbit-notify@0.0.1:
-    host: YOUR_ERRBIT_HOST
-    api-key: YOUR_ERRBIT_HOST
+deploy:
+  after-steps:
+    - 1syo/errbit-notify@0.0.1:
+        host: YOUR_ERRBIT_HOST
+        api-key: YOUR_ERRBIT_HOST
 ```
 
 ## License
