@@ -13,3 +13,6 @@ properties:
   ssl:
     type: boolean
     required: false
+  environment:
+    type: string
+    required: false
