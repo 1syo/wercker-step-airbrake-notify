@@ -1,16 +1,16 @@
-name: errbit-notify
+name: airbrake-notify
 version: 0.0.1
-description: Send deploy notification to errbit
+description: Send deploy notification to airbrake
 keywords:
   - notification
 properties:
-  host:
-    type: string
-    required: true
   api-key:
     type: string
     required: true
-  ssl:
+  host:
+    type: string
+    required: false
+  secure:
     type: boolean
     required: false
   environment:
