@@ -16,3 +16,6 @@ properties:
   environment:
     type: string
     required: false
+  message:
+    type: string
+    required: false
