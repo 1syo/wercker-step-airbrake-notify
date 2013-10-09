@@ -6,6 +6,7 @@
 * ``host``  Your airbrake HOST. default airbrake.io
 * ``secure``  default false.
 * ``environment`` default production.
+* ``message`` message.
 
 ## Example
 
