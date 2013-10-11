@@ -58,7 +58,7 @@ fi
 info "$message"
 
 
-$cmd -G \
+$cmd -G -v \
   --data-urlencode "api_key=$WERCKER_AIRBRAKE_NOTIFY_API_KEY" \
   --data-urlencode "deploy[local_username]=$WERCKER_STARTED_BY" \
   --data-urlencode "deploy[rails_env]=$environment" \
@@ -66,4 +66,4 @@ $cmd -G \
   --data-urlencode "deploy[scm_revision]=$scm_revision" \
   --data-urlencode "deploy[message]=$message" \
   "$schema://$host/deploys.txt" -o '' 2>/dev/null
-exit $?
+exit 0
