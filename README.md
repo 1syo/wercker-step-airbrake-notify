@@ -13,7 +13,7 @@
 ```
 deploy:
   after-steps:
-    - 1syo/airbrake-notify@0.0.1:
+    - 1syo/airbrake-notify@0.0.2:
         api-key: YOUR_AIRBRAKE_API_KEY
 ```
 
