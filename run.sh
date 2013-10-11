@@ -57,7 +57,7 @@ else
 fi
 info "$message"
 
-$cmd -G -# \
+$cmd -G -s \
   --data-urlencode "api_key=$WERCKER_AIRBRAKE_NOTIFY_API_KEY" \
   --data-urlencode "deploy[local_username]=$WERCKER_STARTED_BY" \
   --data-urlencode "deploy[rails_env]=$environment" \
