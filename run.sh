@@ -66,3 +66,4 @@ $cmd -G \
   --data-urlencode "deploy[scm_revision]=$scm_revision" \
   --data-urlencode "deploy[message]=$message" \
   "$schema://$host/deploys.txt" -o '' 2>/dev/null
+exit $?
